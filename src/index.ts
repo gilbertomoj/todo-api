@@ -13,6 +13,9 @@ app.use(bodyParser.json());
 app.get("/",(req , res)=>{
     res.send("Rota principal")
 })
+app.get("/test",(req , res)=>{
+    res.send("Servidor rodand")
+})
 
 app.use(routes)
 
