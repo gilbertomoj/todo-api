@@ -14,7 +14,7 @@ app.get("/",(req , res)=>{
     res.send("Rota principal")
 })
 app.get("/test",(req , res)=>{
-    res.send("Servidor rodand")
+    res.send("Servidor rodando")
 })
 
 app.use(routes)
